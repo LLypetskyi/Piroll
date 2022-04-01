@@ -69,8 +69,7 @@ a:visited {
   box-sizing: border-box;
   padding-top: 100px;
   display: flex;
-  background-image: url("https://images.unsplash.com/photo-1550060096-64defeab80cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
-
+  background-image: url(images/pexels-photo-1902415.jpg);
 }
 
 .title {
@@ -182,21 +181,45 @@ a:visited {
   display: flex;
   flex-direction: row;
 }
-
 .skills_left {
   width: 50%;
   background-color: #f8f9f9;
   padding: 160px 100px 100px 100px;
 }
+.skills_diagram{
+margin-top: 36px;
+margin-bottom: 40px;
+}
+.percentage_container{
+  width: 100%;
+  background-color: #d8d8d8;
+}
+.percentage_line_ux {
+  height: 3px;
+  background-color: #74dfdb;
+  width: 75%;
+}
+.percentage_line_web {
+  height: 3px;
+  background-color: #74dfdb;
+  width: 90%;
+}
+.percentage_line_marketing {
+  height: 3px;
+  background-color: #74dfdb;
+  width: 65%;
+}
 
 .skills_right {
   width: 50%;
+  background-image: url(images/pngtree-shadow.jpg);
+  background-repeat: no-repeat ;
 }
 
-.skill_image {
+/* .skill_image {
   width: 680px;
   height: auto;
-}
+} */
 
 .achievements {
   width: 100%;
@@ -224,13 +247,19 @@ a:visited {
   flex-direction: column;
   margin-left: 30px;
 }
+
+
+
+
+
+
 .works {
-    height: 600px;
-    background-color: yellowgreen;
-    display: flex;
-    flex-wrap: wrap;
-  }
- 
+  height: 600px;
+  background-color: yellowgreen;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 .works_item {
   border: 1px solid white;
