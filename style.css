@@ -296,6 +296,6 @@ margin-bottom: 40px;
 /* hitted navbar */
 
 html[data-scroll='not-top'] .navbar {
-  background-color: #F5F5F5;
+  background-color: #f8f9f9;;
   height: 50px;
 }
