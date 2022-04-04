@@ -250,9 +250,6 @@ margin-bottom: 40px;
 
 
 
-
-
-
 .works {
   height: 600px;
   background-color: yellowgreen;
@@ -275,10 +272,6 @@ margin-bottom: 40px;
 
 
 
-
-
-
-
 .load_more_works {
   height: 100px;
   display: flex;
@@ -293,8 +286,9 @@ margin-bottom: 40px;
   background-color: black;
 }
 
-/* hitted navbar */
 
+
+/* hitted navbar */
 html[data-scroll='not-top'] .navbar {
   background-color: #f8f9f9;;
   height: 50px;
